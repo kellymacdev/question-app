@@ -16,8 +16,11 @@ function App() {
     async function fetchQuestions() {
       try {
         const res = await fetch(SHEET_URL);
+        console.log("Fetching questions from:", SHEET_URL);
         const text = await res.text();
+        console.log("Raw CSV data:", text);
         const parsed = Papa.parse(text, { header: true, skipEmptyLines: true }).data;
+        console.log("Parsed questions:", parsed);
 
         const formatted = parsed
           .map(row => {
