@@ -69,3 +69,7 @@ They offer excellent curated prompts and conversation starters — check them ou
 
 ### Author
 Kelly MacDevette
+
+## License
+This project is licensed under the [MIT License](./LICENSE). 
+
