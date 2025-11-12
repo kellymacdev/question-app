@@ -34,7 +34,7 @@ function App() {
           .map(row => {
             const q = row.Question?.trim();
             if (!q) return null;
-            const ns = row.NonStandard?.trim().toUpperCase() === 'TRUE';
+            const ns = String(row.NonStandard || '').trim() === '1';
             return { question: q, nonStandard: ns };
           })
           .filter(Boolean);
