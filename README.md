@@ -64,12 +64,12 @@ npx cap open android
 The Android version is built and packaged using Codemagic for CI/CD integration.
 
 
-### Credits
+## Credits
 
 Some of the questions used in this app were adapted from the free question pack provided by [AskHole](https://askhole.io/).  
 They offer great curated prompts and conversation starters — check them out!
 
-### Author
+## Author
 Kelly MacDevette
 
 ## License
